@@ -25,17 +25,17 @@ sudo dnf install gnome-shell-extension-tool gnome-shell-devel gjs libgee
 
 #### Clone the repository into the GNOME extensions folder:
 ```bash
-git clone https://github.com/DerefDev/f1-live-timing.git ~/.local/share/gnome-shell/extensions/f1-live-timing@derefdev
+git clone https://github.com/DerefDev/f1-live-timing.git ~/.local/share/gnome-shell/extensions/f1-live-timing@deref.dev.gmail.com
 ```
 
 Compile the settings schemas:
 ```bash
-glib-compile-schemas ~/.local/share/gnome-shell/extensions/f1-live-timing@derefdev/schemas/
+glib-compile-schemas ~/.local/share/gnome-shell/extensions/f1-live-timing@deref.dev.gmail.com/schemas/
 ```
 
 Enable the extension:
 ```bash
-gnome-extensions enable f1-live-timing@derefdev
+gnome-extensions enable f1-live-timing@deref.dev.gmail.com
 ```
 
 #### Restart GNOME Shell
@@ -55,7 +55,7 @@ If installed via the GNOME Extensions website, you can remove it from the GNOME 
 
 For manual installations:
 ```bash
-rm -rf ~/.local/share/gnome-shell/extensions/f1-live-timing@derefdev
+rm -rf ~/.local/share/gnome-shell/extensions/f1-live-timing@deref.dev.gmail.com
 ```
 
 ## 📜 License
