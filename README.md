@@ -1,4 +1,4 @@
-#F1 Live Timing - GNOME Extension
+# F1 Live Timing - GNOME Extension
 
 Show Formula 1 session or race times directly in the Gnome Shell
 
